@@ -1,0 +1,102 @@
+
+
+main{
+    display: flex;
+    background: linear-gradient(to right, #37d5d6, #36096d);
+    flex-direction: column;
+}
+
+#info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+
+#hey{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.hi{
+    width: 90%;
+}
+
+.img{
+    margin: 50px 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro{
+    color: white;
+}
+
+
+
+.wow{
+    display: flex;
+    flex-direction: row;
+}
+
+#no{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+#nice{
+    color: white;
+}
+
+.oh{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-around;
+    padding: 50px;
+    margin: 20px;
+}
+
+#project{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.serv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+
+}
+
+.hobby{
+    width: 30%;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+}
+
+.head{
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+

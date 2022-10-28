@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./registration.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="ul">
+                <li class="list">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="list">
+                    <a href="registration.html">Registration</a>
+                </li>
+                <li class="list">
+                    <a href="login.html">Login</a>
+                </li>
+                <li class="list">
+                    <a href="contacts.html">Contacts</a>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="cont">
+            <form class="form">
+                <input type="text" placeholder="First Name" minlength="3" maxlength="15" required>
+                <input type="text" placeholder="Last Name" minlength="3" maxlength="15" required>
+                <input type="email" placeholder="email address" required>
+                <input type="tel" placeholder="0123-456-789" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" required>
+                <select>
+                    <option value="none" selected>Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Choose not to say</option>
+                </select>
+                <select>
+                    <option value="none" selected>Color</option>
+                    <option value="blue">Blue</option>
+                    <option value="red">Red</option>
+                    <option value="black">Black</option>
+                    <option value="white">White</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="green">Green</option>
+                    <option value="pink">Pink</option>
+                    <option value="purple">Purple</option>
+                </select>
+                <input type="date" name="dob" max="2006-01-01" required>
+                <input type="password" placeholder="Password" required>
+                <button>Create</button>
+                <p class="message">Already registered? <a href="#">Sign In</a></p>
+            </form>
+        </div>
+        
+    </main>
+
+</body>
+
+</html>

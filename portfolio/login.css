@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.container{
+    background: linear-gradient(to right, #37d5d6, #36096d);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+}
+
+.form{
+    background-color: white;
+    width: 30vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.abc{
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    margin: 20px, 50px;
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+    font-size: 24px;
+    font-weight: 300;
+    border: 0px;
+    border-radius: 5px;
+}
+
+
+input{
+    width: 80%;
+    height: 10%;
+}

@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+main{
+    background: linear-gradient(to right, #37d5d6, #36096d);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+div{
+        background-color: white;
+        width: 30vw;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+
+}
+
+p{
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}

@@ -1,0 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+main{
+    background: linear-gradient(to right, #37d5d6, #36096d);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+}
+
+#success{
+    color: white;
+}
