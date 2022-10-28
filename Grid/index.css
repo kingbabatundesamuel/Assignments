@@ -1,0 +1,72 @@
+body {
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+
+@media screen and (max-width:1440px) {
+  .con{
+    flex-direction: row-reverse;
+  }
+}
+
+@media screen and (min-width:375px) {
+  .con{
+    flex-direction: row;
+  }
+}
+
+.con {
+  height: 400px;
+  display: flex;
+}
+
+.a {
+  align-items: left;
+  height: 400px;
+  padding: 0 30px;
+}
+
+.colone {
+  background-color:  hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  width: 200px;
+  border-radius: 10px 0 0 10px;
+}
+
+.coltwo {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  width: 200px;
+}
+
+.colthree {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  width: 200px;
+  border-radius: 0 10px 10px 0;
+}
+
+button {
+  padding: 10px 0;
+  margin: 80px 0;
+  cursor: pointer;
+  width: 70%;
+  border-radius: 20px;
+  background-color: hsla(0, 0%, 100%, 0.00);
+  color: hsl(0, 0%, 95%);
+  border-color: hsl(0, 0%, 95%);
+  
+}
+
+h2{
+    margin: 30px 0;
+}
+
+img{
+    height: 50px;
+    width: 50%;
+    margin: 10px 0;
+}
